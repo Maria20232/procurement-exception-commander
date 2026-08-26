@@ -1,4 +1,4 @@
-# 🚀 AutoPilot Template
+# AutoPilot Template
 
 ## Procurement Exception Commander — Round 2
 
@@ -33,7 +33,7 @@ Before you begin, make sure you have these installed on your machine:
 
 ---
 
-## 🚀 Getting Started — Step by Step
+## Getting Started — Step by Step
 
 ### Step 1: Clone the Repository
 
@@ -109,9 +109,9 @@ autopilot-template-frontend-1     running
 
 | Service | URL | What it is |
 |---------|-----|------------|
-| 🖥️ **Dashboard** | [http://localhost:3001](http://localhost:3001) | Your Command Center UI |
-| ⚙️ **API Docs** | [http://localhost:8001/api/docs](http://localhost:8001/api/docs) | Backend Swagger documentation |
-| 🗄️ **Database** | `localhost:5432` | PostgreSQL (user: `user`, password: `password`) |
+|  **Dashboard** | [http://localhost:3001](http://localhost:3001) | Your Command Center UI |
+| **API Docs** | [http://localhost:8001/api/docs](http://localhost:8001/api/docs) | Backend Swagger documentation |
+| **Database** | `localhost:5432` | PostgreSQL (user: `user`, password: `password`) |
 
 **You should see the Command Center dashboard with:**
 - Stat cards showing AI activity metrics
@@ -177,7 +177,7 @@ docker compose up --build -d
 
 ---
 
-## 📋 Common Commands Reference
+## Common Commands Reference
 
 ### macOS / Linux (using `make`)
 
@@ -257,45 +257,31 @@ docker compose restart backend
 ## What's Included
 
 ### Backend (FastAPI + Python)
-- ✅ FastAPI with auto-generated Swagger docs
-- ✅ PostgreSQL database with Alembic migrations
-- ✅ Auth system with dev-mode bypass (`AUTH_BYPASS=true`)
-- ✅ Audit logging middleware (every request logged)
-- ✅ Items CRUD API (sample entity)
-- ✅ File storage API (local or cloud)
-- ✅ Role-based authorization engine
+- FastAPI with auto-generated Swagger docs
+- PostgreSQL database with Alembic migrations
+- Auth system with dev-mode bypass (`AUTH_BYPASS=true`)
+- Audit logging middleware (every request logged)
+- items CRUD API (sample entity)
+- File storage API (local or cloud)
+- Role-based authorization engine
 
 ### Frontend (Next.js + React)
-- ✅ Premium glassmorphic UI with Framer Motion animations
-- ✅ Dashboard with stat cards and activity chart
-- ✅ AI Policies page with demo data (5 sample policies)
-- ✅ AI Insights page with demo data (patterns, anomalies, actions)
-- ✅ AI Manager chat interface
-- ✅ Workbench page
-- ✅ Settings page
-- ✅ Command palette (⌘K / Ctrl+K)
+- Premium glassmorphic UI with Framer Motion animations
+- Dashboard with stat cards and activity chart
+- AI Policies page with demo data (5 sample policies)
+- AI Insights page with demo data (patterns, anomalies, actions)
+- AI Manager chat interface
+- Workbench page
+- Settings page
+- Command palette (⌘K / Ctrl+K)
 
 ### Infrastructure
-- ✅ Docker Compose for one-command startup
-- ✅ Pre-built production frontend (instant page loads)
-- ✅ Cross-platform (macOS, Windows, Linux)
+- Docker Compose for one-command startup
+- Pre-built production frontend (instant page loads)
+- Cross-platform (macOS, Windows, Linux)
 
 ---
 
-## What YOU Build
-
-This is a **starter template**. You need to connect these frontend shells to real AI logic:
-
-| Feature | Frontend Status | Your Task |
-|---------|----------------|-----------| 
-| **AI Manager** | ✅ Chat UI ready | Connect to your AI agent orchestration backend |
-| **AI Policies** | ✅ Demo data loaded | Build the policy engine that evaluates rules at runtime |
-| **AI Insights** | ✅ Demo data loaded | Build the analysis engine that generates insights from your data |
-| **Workbench** | ✅ UI shell ready | Build exception routing — when AI fails, send work items here |
-
-See **[`docs/command-center-guide.md`](docs/command-center-guide.md)** for the full architecture guide.
-
----
 
 ## Project Structure
 
@@ -317,8 +303,8 @@ AutoPilot-Template/
 ├── alembic/                # Database migrations
 ├── scripts/                # Seed data, utilities
 ├── docs/                   # Documentation
-│   ├── command-center-guide.md   # ⭐ What to build
-│   ├── hackathon-brief.md        # ⭐ Problem statements
+│   ├── command-center-guide.md   # What to build
+│   ├── hackathon-brief.md        # Problem statements
 │   ├── design-system-template.md # UI patterns
 │   └── Audit System Guide.md     # Audit logging
 ├── docker-compose.yml      # Service orchestration
@@ -341,7 +327,7 @@ AutoPilot-Template/
 
 ---
 
-## 🛠️ Troubleshooting
+## roubleshooting
 
 | Problem | Solution |
 |---------|----------|
