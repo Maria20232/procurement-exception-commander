@@ -121,7 +121,7 @@ autopilot-template-frontend-1     running
 
 ---
 
-## 🛑 Stopping & Restarting
+## Stopping & Restarting
 
 ### Stop All Services
 
@@ -215,7 +215,7 @@ docker compose up --build -d
 
 ---
 
-## 🔍 Viewing Logs & Debugging
+## Viewing Logs & Debugging
 
 ### Watch all logs at once
 ```bash
